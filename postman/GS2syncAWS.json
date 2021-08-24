@@ -1,0 +1,25 @@
+{
+  "GS2":{
+    "confName":"GS2",
+    "type":"s3",
+    "provider":"Minio",
+    "env_auth":false,
+    "access_key_id":"MXPOMM139YJEZ5K3FZA1",
+    "secret_access_key":"F1RAw8ehQNz31oeyJjWo2Kr+icabL7U+tpS2eUKP",
+    "bucket":"mike0808",
+    "endpoint":"https://78f96dec-152a-4fcb-9e2d-3ebf105ee711.cygnus.mtl.nbai.io",
+    "acl":"private"
+  },
+  "AWStest":{
+    "confName":"AWStest",
+    "bucket":"mikea01",
+    "type":"s3",
+    "provider":"AWS",
+    "env_auth":false,
+    "region":"us-east-2",
+    "location_constraint":"us-east-2",
+    "acl":"private",
+    "access_key_id":"AKIAJCYF66NPLRPRP3QQ",
+    "secret_access_key":"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"
+  }
+}

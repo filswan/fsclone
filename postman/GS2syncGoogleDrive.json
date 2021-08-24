@@ -1,0 +1,25 @@
+{
+  "GS2":{
+    "confName":"GS2",
+    "type":"s3",
+    "provider":"Minio",
+    "env_auth":false,
+    "access_key_id":"MXPOMM139YJEZ5K3FZA1",
+    "secret_access_key":"F1RAw8ehQNz31oeyJjWo2Kr+icabL7U+tpS2eUKP",
+    "bucket":"mike0808",
+    "endpoint":"https://78f96dec-152a-4fcb-9e2d-3ebf105ee711.cygnus.mtl.nbai.io",
+    "acl":"private"
+  },
+  "Google_Drive":{
+    "confName":"Google_Drive",
+    "type":"drive",
+    "scope":"drive",
+    "bucket":"mikeg01",
+    "token":{
+      "access_token":"ya29.GltlB8he0TmvPs43GBA-Lx7_aET1g8A39pIMVv-qLV23TRdHVLkRA8m7FW7SdcYqAP8vovOh0A90DrUMBZTIrAH7IvKlZyLaWGeboxowfg_RYEfe5gFtijGlnXh7",
+      "token_type":"Bearer",
+      "refresh_token":"1/qPzvWQRUwHsJa_j88xdS5knhln51sNKCWF4K_4nar1w",
+      "expiry":"2019-08-15T16:01:59.546595968-04:00"
+    }
+  }
+}
