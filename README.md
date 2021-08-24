@@ -1,4 +1,4 @@
-#Migration With S3 storage
+#Synchronize files with fsclone
 
 A component of Synchronized data between fs3 and googledrive,or fs3 between aws3.
 It compares the latest time of the file in you specified bucket in s3 and google drive or aws3,
@@ -7,17 +7,17 @@ Then synchronize the bucket with the updated time to the bucket with the older t
 ## Getting Started
 1. &ensp; install rclone 
 ```console
-#sudo apt update
-#sudo apt install rclone
+sudo apt update
+sudo apt install rclone
 ```
 2. &ensp;  clone code to $GOPATH/src
 ```console
-#git clone http://192.168.88.183/filswan/gs2migrations3
+git clone https://github.com/filswan/fsclone.git
 ```
-3. &ensp; find the config file of gs2migrations3.
+3. &ensp; find the config file of fsclone.
 ```console
-#cd $GOPATH/src/gs2migrations3/conf/
-#vim conf.toml
+cd $GOPATH/src/fsclone/conf/
+vim conf.toml
 ```
 4. &ensp; input raclone config path to the config file.<br>
 &ensp; rclone default config path is : ~/.config/rclone/rclone.conf<br>
@@ -26,9 +26,9 @@ Then synchronize the bucket with the updated time to the bucket with the older t
 ```console
 rcloneConfigPath = "~/.config/rclone/rclone.conf"
 ```
-5. &ensp; run gs2migrations3
+5. &ensp; run fsclone
 ```console
-#go run ./main/main.go
+go run ./main/main.go
 ```
 6. call the api <br>
    Put the following address in the address bar of postman, modify the json data in the param example to your own data, <br>
@@ -46,9 +46,9 @@ rcloneConfigPath = "~/.config/rclone/rclone.conf"
 ## Docker usage
 in the os terminal,run cmd below
 ```console
-#make build
-#docker build -t nbai/rclone .
-#docker run -p 8083:8083 nbai/rclone
+make build
+docker build -t nbai/rclone .
+docker run -p 8083:8083 nbai/rclone
 ```
 
 ## Versioning and Releases
