@@ -2,8 +2,8 @@ package microsoft
 
 import (
 	"fmt"
-	"migrates3/logs"
-	"migrates3/service"
+	"fsclone/logs"
+	"fsclone/service"
 )
 
 func SyncDataWithOneDrive(gs2DirectoryName string, oneDirectoryName string, gs2ConfName string, oneConfName string) error {

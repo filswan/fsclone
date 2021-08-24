@@ -2,8 +2,8 @@ package aws
 
 import (
 	"fmt"
-	"migrates3/logs"
-	"migrates3/service"
+	"fsclone/logs"
+	"fsclone/service"
 )
 
 func SyncDataWithAWS3(gs2DirectoryName string, awsDirectoryName string, gs2ConfName string, awsConfName string) error {

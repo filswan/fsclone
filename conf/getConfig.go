@@ -1,8 +1,8 @@
 package conf
 
 import (
+	"fsclone/logs"
 	"github.com/BurntSushi/toml" //nolint:goimports
-	"migrates3/logs"
 )
 
 type Configuration struct {

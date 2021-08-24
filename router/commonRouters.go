@@ -1,9 +1,9 @@
 package router
 
 import (
+	"fsclone/domain"
+	"fsclone/service"
 	"github.com/gin-gonic/gin"
-	"migrates3/domain"
-	"migrates3/service"
 	"net/http"
 )
 

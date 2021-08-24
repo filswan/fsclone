@@ -2,13 +2,13 @@ package router
 
 import (
 	"fmt"
+	"fsclone/cloud/aws"
+	"fsclone/cloud/google"
+	"fsclone/cloud/microsoft"
+	"fsclone/domain"
+	"fsclone/logs"
+	"fsclone/service"
 	"github.com/gin-gonic/gin"
-	"migrates3/cloud/aws"
-	"migrates3/cloud/google"
-	"migrates3/cloud/microsoft"
-	"migrates3/domain"
-	"migrates3/logs"
-	"migrates3/service"
 	"net/http"
 )
 

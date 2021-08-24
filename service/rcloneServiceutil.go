@@ -2,12 +2,12 @@ package service
 
 import (
 	"encoding/json"
+	"fsclone/common"
+	"fsclone/conf"
+	"fsclone/domain"
+	"fsclone/logs"
 	"github.com/mitchellh/go-homedir"
 	"gopkg.in/ini.v1"
-	"migrates3/common"
-	"migrates3/conf"
-	"migrates3/domain"
-	"migrates3/logs"
 	"strconv"
 )
 
