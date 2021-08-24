@@ -1,7 +1,7 @@
 package domain
 
 import (
-	"migrates3/common"
+	"fsclone/common"
 	"net/http"
 )
 

@@ -2,8 +2,8 @@ package service
 
 import (
 	"fmt"
-	"migrates3/common"
-	"migrates3/logs"
+	"fsclone/common"
+	"fsclone/logs"
 	"strings"
 )
 

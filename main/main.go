@@ -1,11 +1,11 @@
 package main
 
 import (
+	"fsclone/conf"
+	"fsclone/logs"
+	"fsclone/router"
 	"github.com/gin-gonic/gin"
 	cors "github.com/itsjamie/gin-cors"
-	"migrates3/conf"
-	"migrates3/logs"
-	"migrates3/router"
 	"time"
 )
 

@@ -2,8 +2,8 @@ package google
 
 import (
 	"fmt"
-	"migrates3/logs"
-	"migrates3/service"
+	"fsclone/logs"
+	"fsclone/service"
 )
 
 func SyncDataWithGoogleDrive(gs2DirectoryName string, googDirectoryName string, gs2ConfName string, googConfName string) error {
